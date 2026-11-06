@@ -3,6 +3,10 @@
   "version": "0.1.1",
   "description": "连接共序 CoThread 远程 MCP（https://cothread.z2l.top/mcp），按账号身份与项目成员权限协作。令牌只保存在插件配置里，不写入源码或日志。",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NingYuanLee/dsh-cothread-mcp.git"
+  },
   "type": "module",
   "main": "src/index.js",
   "exports": {
