@@ -1,6 +1,6 @@
 {
   "name": "dsh-cothread-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "连接共序 CoThread 远程 MCP（https://cothread.z2l.top/mcp），按账号身份与项目成员权限协作。令牌只保存在插件配置里，不写入源码或日志。",
   "license": "MIT",
   "type": "module",
@@ -13,11 +13,13 @@
     "src",
     "cordis.patch.yml",
     "icon.svg",
+    "LICENSE",
+    "CHANGELOG.md",
     "README.md"
   ],
   "engines": {
     "node": ">=22.19.0",
-    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0 || >=0.2.2-0 <0.3.0-0"
   },
   "keywords": [
     "dsh",
